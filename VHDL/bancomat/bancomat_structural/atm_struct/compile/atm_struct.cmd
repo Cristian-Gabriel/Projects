@@ -1,0 +1,1 @@
+-w -s "c:\Users\Mada\Desktop\bancomat_structural\library.cfg"  -j "c:\Users\Mada\Desktop\bancomat_structural\atm_struct\projlib.cfg"  -d "c:\Users\Mada\Desktop\bancomat_structural\atm_struct\compile\"  -work atm_struct -dbg -e 100 "c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cod_asamblare.vhd" 

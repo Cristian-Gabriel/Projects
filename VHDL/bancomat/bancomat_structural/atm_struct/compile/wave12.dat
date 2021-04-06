@@ -1,0 +1,69 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$OUT 1 1 ok_card
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 25 2 5 card_pin
+$SC 5-21/4
+I 3 "a#3#rom1 rict0 3 a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +85 3 4 rom1
+$SC 26-+76/4
+$ENDTIME 20000
+$WAVES 1
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 5-21/4 +5-46/4 58 70 +4 +8 94 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 50 +4 +8 +4 78 +8 +4 +12
+*0
+$VALUES
+V 1
+1
+$END
+$ENDTIME 40000
+$WAVES 1
+=2 D 20k 2
+$VALUES
+V 1
+0
+$END
+$WAVES 21
+=3 D 20k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 17
+*3
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*3
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*3
+$VALUES
+V 1
+1
+$END
+$WAVES 5
+*3
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

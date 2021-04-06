@@ -1,0 +1,23 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 r
+$OUT 9 1 clk_out
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 29 2 4 divider
+$SC 13-25/4
+$ENDTIME 20000
+$WAVES 1 5
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 9-25/4
+*0
+$VALUES
+V 1
+U
+$END
+$ENDWAVE

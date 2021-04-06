@@ -1,0 +1,18 @@
+[Files List]
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/unsigned.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/bcd.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/codifsuma.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/sumatorbancnote.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/sumator.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/dmux12.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/mux21.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/muxcomanda.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/cardpin.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/comparator.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/registru_suma.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/registru_bani.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/numarator100.vhd=S
+c:\Users\Mada\Desktop\bancomat_structural\atm_struct/src/cod_asamblare.vhd=S

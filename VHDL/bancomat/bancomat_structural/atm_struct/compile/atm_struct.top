@@ -1,0 +1,5 @@
+DEMUX1_to_4 ENTITY
+reg_suma ENTITY
+ATM ENTITY
+VHDL_Code_Debounce ENTITY
+clock_divider ENTITY

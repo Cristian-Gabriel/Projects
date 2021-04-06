@@ -1,0 +1,5 @@
+MESSAGE "File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cod_asamblare.vhd" 
+MESSAGE "Compile Entity "ATM"" 
+MESSAGE "Entity `ATM' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "Structural" of Entity "ATM"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

@@ -1,0 +1,99 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 21 1 5 card_pin
+$SC 1-17/4
+I 3 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 30 3 2 comanda
+$SC 22 +4
+$IN +5 2 suma_zeci
+$IN +4 2 5 0 sute
+$IN +4 2 5 0 mii
+I 4 "a#28#std_logic_vector(9 downto 0)1 ricd9 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 83 4 10 sumafinala
+$SC 43-79/4
+$S +5 2 enablenum
+I 5 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +20 5 4 suteout
+$SC 88-+12/4
+$BUS S +21 5 4 miiout
+$SC 105-+12/4
+$BUS S +21 5 4 zeciout
+$SC 122-+12/4
+I 6 "i#24#INTEGER range 0 to 10000rict0 10000 "
+$S +5 6 suteint
+$S +4 6 zeciint
+$S +4 6 miiint
+$BUS S +44 4 10 suteoutt
+$SC 151-+36/4
+$BUS S +45 4 10 zecioutt
+$SC 192-+36/4
+$BUS S +45 4 10 0 5 mi
+$SC 233-+36/4
+I 7 "i#24#INTEGER range 0 to 30000rict0 30000 "
+$S +5 7 suma_introdusa
+$S +4 2 bag_bani
+$S +4 2 0 7 retr
+I 8 "i#7#integerrict-2147483648 2147483647 "
+$S +4 8 suma
+$S +4 2 clock_registru
+$S +4 8 euro10out
+$S +4 8 6 4 ""
+$S +4 8 7 0 "0out"
+$S +4 2 confirmareretragere
+$S +4 2 10 0 bani
+$ENDTIME 100000
+$WAVES 1-17/4 +9 +5-+8/4 151-+36/4 +5-+36/4 +5-+36/4 +9 +4 +8 +16 +4
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 22 84
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 43-79/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES +9-+12/4 +5-+12/4 +5-+12/4
+*0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +5-+8/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 274
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +12
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +8-+8/4
+*0
+*1
+$VALUES
+V 2
+-2147483648
+0
+$END
+$ENDWAVE

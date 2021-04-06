@@ -1,0 +1,17 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "i#7#integerrict-2147483648 2147483647 "
+$IN 1 1 suma
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 21 2 4 zeci
+$SC 5-17/4
+$BUS OUT 38 2 4 sute
+$SC 22-34/4
+$BUS OUT 55 2 4 mii
+$SC 39-51/4
+$VARIABLE +5 1 "line__13/sumatest"
+$VARIABLE +1 1 9 0 z
+$VARIABLE +1 1 9 0 s
+$VARIABLE +1 1 9 0 m
+$ENDWAVE

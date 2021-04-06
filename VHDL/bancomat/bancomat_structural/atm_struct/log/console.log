@@ -1,0 +1,85 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+# Design Explorer: Shortcut to "c:\Users\Mada\Desktop\bancomat_structural\banco.aws" design added.
+acom $DSN/src/bcd.vhd $DSN/src/registru_card+pin.vhd $DSN/src/cod_bcd7seg.vhd $DSN/src/dmux14.vhd $DSN/src/registru_bani.vhd $DSN/src/numarator100.vhd $DSN/src/mux21.vhd $DSN/src/cod_asamblare.vhd $DSN/src/algoritm_alegere_card_pin.vhd $DSN/src/cardpin.vhd $DSN/src/debounce.vhd $DSN/src/clock_divider.vhd $DSN/src/registru_suma.vhd $DSN/src/codifsuma.vhd $DSN/src/muxcomanda.vhd $DSN/src/sumator.vhd $DSN/src/sumatorbancnote.vhd $DSN/src/comparator.vhd
+# Compile...
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\bcd.vhd
+# Compile Entity "SSD"
+# Entity `SSD' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "SSD"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\registru_card+pin.vhd
+# Compile Entity "reg_univ1"
+# Entity `reg_univ1' has been skipped - no difference detected.
+# Compile Architecture "arh_reguniv" of Entity "reg_univ1"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cod_bcd7seg.vhd
+# Compile Entity "bcd7seg"
+# Entity `bcd7seg' has been skipped - no difference detected.
+# Compile Architecture "bcd" of Entity "bcd7seg"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\dmux14.vhd
+# Compile Entity "DEMUX1_to_4"
+# Entity `DEMUX1_to_4' has been skipped - no difference detected.
+# Compile Architecture "DMUX14" of Entity "DEMUX1_to_4"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\registru_bani.vhd
+# Compile Entity "reg_univ"
+# Entity `reg_univ' has been skipped - no difference detected.
+# Compile Architecture "arh_reguniv11" of Entity "reg_univ"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\numarator100.vhd
+# Compile Entity "num_dir"
+# Entity `num_dir' has been skipped - no difference detected.
+# Compile Architecture "arh" of Entity "num_dir"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\mux21.vhd
+# Compile Entity "mux_chitanta"
+# Entity `mux_chitanta' has been skipped - no difference detected.
+# Compile Architecture "arh" of Entity "mux_chitanta"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cod_asamblare.vhd
+# Compile Entity "ATM"
+# Entity `ATM' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "ATM"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\algoritm_alegere_card_pin.vhd
+# Compile Entity "bancomat"
+# Entity `bancomat' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "bancomat"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cardpin.vhd
+# Compile Entity "cardpin"
+# Entity `cardpin' has been skipped - no difference detected.
+# Compile Architecture "verificare" of Entity "cardpin"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\debounce.vhd
+# Compile Entity "VHDL_Code_Debounce"
+# Entity `VHDL_Code_Debounce' has been skipped - no difference detected.
+# Compile Architecture "Behavioral1" of Entity "VHDL_Code_Debounce"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\clock_divider.vhd
+# Compile Entity "clock_divider"
+# Entity `clock_divider' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "clock_divider"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\registru_suma.vhd
+# Compile Entity "reg_suma"
+# Entity `reg_suma' has been skipped - no difference detected.
+# Compile Architecture "arh_regsuma" of Entity "reg_suma"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\codifsuma.vhd
+# Compile Entity "sumacodif"
+# Entity `sumacodif' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "sumacodif"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\muxcomanda.vhd
+# Compile Entity "muxcomanda"
+# Entity `muxcomanda' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "muxcomanda"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\sumator.vhd
+# Compile Entity "sumator"
+# Entity `sumator' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "sumator"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\sumatorbancnote.vhd
+# Compile Entity "sumatorbancnote"
+# Entity `sumatorbancnote' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "sumatorbancnote"
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\comparator.vhd
+# Compile Entity "comparator"
+# Entity `comparator' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "comparator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  4.0 [s]
+acom $DSN/src/cod_asamblare.vhd
+# Compile...
+# File: c:\Users\Mada\Desktop\bancomat_structural\atm_struct\src\cod_asamblare.vhd
+# Compile Entity "ATM"
+# Entity `ATM' has been skipped - no difference detected.
+# Compile Architecture "Structural" of Entity "ATM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

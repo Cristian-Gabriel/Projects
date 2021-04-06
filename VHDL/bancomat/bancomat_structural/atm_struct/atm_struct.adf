@@ -1,0 +1,76 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=atm_struct
+
+[Library]
+atm_struct=.\atm_struct.lib
+
+[$LibMap$]
+atm_struct=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=atm|structural|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/bcd.vhd=-1
+/registru_card+pin.vhd=-1
+/cod_bcd7seg.vhd=-1
+/dmux14.vhd=-1
+/registru_bani.vhd=-1
+/numarator100.vhd=-1
+/mux21.vhd=-1
+/cod_asamblare.vhd=-1
+/algoritm_alegere_card_pin.vhd=-1
+/cardpin.vhd=-1
+/debounce.vhd=-1
+/clock_divider.vhd=-1
+/registru_suma.vhd=-1
+/codifsuma.vhd=-1
+/muxcomanda.vhd=-1
+/sumator.vhd=-1
+/sumatorbancnote.vhd=-1
+/comparator.vhd=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\bcd.vhd=VHDL Source Code
+.\src\registru_card+pin.vhd=VHDL Source Code
+.\src\cod_bcd7seg.vhd=VHDL Source Code
+.\src\dmux14.vhd=VHDL Source Code
+.\src\registru_bani.vhd=VHDL Source Code
+.\src\numarator100.vhd=VHDL Source Code
+.\src\mux21.vhd=VHDL Source Code
+.\src\cod_asamblare.vhd=VHDL Source Code
+.\src\algoritm_alegere_card_pin.vhd=VHDL Source Code
+.\src\cardpin.vhd=VHDL Source Code
+.\src\debounce.vhd=VHDL Source Code
+.\src\clock_divider.vhd=VHDL Source Code
+.\src\registru_suma.vhd=VHDL Source Code
+.\src\codifsuma.vhd=VHDL Source Code
+.\src\muxcomanda.vhd=VHDL Source Code
+.\src\sumator.vhd=VHDL Source Code
+.\src\sumatorbancnote.vhd=VHDL Source Code
+.\src\comparator.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+

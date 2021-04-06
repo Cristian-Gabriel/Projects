@@ -1,0 +1,12 @@
+[Version]
+Version=6.3
+[Designs]
+atm_struct=.\atm_struct\atm_struct.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+atm_struct=1
